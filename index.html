@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      body {
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="all-container">
+      <div class="left-tab">
+        <div class="text-result">Your Result</div>
+        <div class="result">
+          <div class="actual-score">76</div>
+          <div class="max-score">of 100</div>
+        </div>
+        <div class="big-great">Great</div>
+        <div class="description-score">
+          You scored higher than 65% of the people who have taken these tests.
+        </div>
+      </div>
+      <div class="right-tab">
+        <div class="summary">Summary</div>
+        <div class="scores-general">
+          <div class="reaction">
+            <div class="icon-text">
+              <object
+                data="./assets/images/icon-reaction.svg"
+                width="30"
+                height="30"
+                id="demo"
+              ></object>
+              <div>Reaction</div>
+            </div>
+            <div>80 / 100</div>
+          </div>
+          <div class="memory">
+            <div class="icon-text">
+              <object
+                data="./assets/images/icon-memory.svg"
+                width="30"
+                height="30"
+              ></object>
+              <div>Memory</div>
+            </div>
+            <div>92 / 100</div>
+          </div>
+          <div class="verbal">
+            <div class="icon-text">
+              <object
+                data="./assets/images/icon-verbal.svg"
+                width="30"
+                height="30"
+              ></object>
+              <div>Verbal</div>
+            </div>
+            <div>61 / 100</div>
+          </div>
+          <div class="visual">
+            <div class="icon-text">
+              <object
+                data="./assets/images/icon-visual.svg"
+                width="30"
+                height="30"
+              ></object>
+              <div>Visual</div>
+            </div>
+            <div>72 / 100</div>
+          </div>
+        </div>
+        <button class="button">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>

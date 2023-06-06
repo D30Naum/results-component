@@ -1,0 +1,141 @@
+.index {
+  width: 100%;
+  height: 100%;
+}
+
+.all-container {
+  height: 30rem;
+  width: 50rem;
+  border-radius: 20px;
+  box-shadow: 10px 10px 150px 6px lightblue;
+  background-color: white;
+}
+
+.left-tab {
+  min-height: 100%;
+  width: 50%;
+  float: left;
+  background-color: lightblue;
+  text-align: center;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+}
+
+.text-result {
+  font-size: 2rem;
+  color: lightgray;
+  padding: 1rem;
+}
+
+.result {
+  border-radius: 50%;
+  width: 20%;
+  height: 100%;
+  padding: 10%;
+  background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsl(241, 81%, 54%));
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.actual-score {
+  font-size: 5vw;
+}
+
+.big-great {
+  font-size: 2.5rem;
+  margin: 8%;
+}
+
+.description-score {
+  font-size: 1rem;
+  color: lightgray;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.right-tab {
+  height: 100%;
+  width: 50%;
+  float: right;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.summary {
+  font-size: 1.3rem;
+  text-align: left;
+  padding-left: 8%;
+  padding-top: 3%;
+  color: gray;
+}
+
+.scores-general {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 90%;
+  padding-top: 2%;
+  margin: auto;
+  padding-bottom: 5%;
+}
+.reaction,
+.memory,
+.verbal,
+.visual {
+  display: flex;
+  justify-content: space-around; /* adds horizontal space between elements */
+  align-items: center;
+  border-radius: 20px;
+  width: 100%;
+  height: 20%;
+  margin: auto;
+}
+
+.reaction {
+  background-color: hsl(0, 33%, 89%);
+  color: hsl(0, 65%, 57%);
+}
+
+.memory {
+  background-color: hsl(41, 58%, 94%);
+  color: hsl(39, 62%, 43%);
+}
+
+.verbal {
+  background-color: hsl(167, 100%, 95%);
+  color: hsl(166, 100%, 37%);
+}
+
+.visual {
+  background-color: hsl(251, 70%, 90%);
+  color: hsl(234, 85%, 45%);
+}
+
+.button {
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around; /* adds horizontal space between elements */
+  align-items: center;
+  border-radius: 20px;
+  width: 90%;
+  height: 10%;
+  margin: auto;
+  padding: 6%;
+  margin-bottom: 5%;
+  color: white;
+  background-color: hsl(224, 30%, 27%);
+  font-size: 1.1rem;
+}
